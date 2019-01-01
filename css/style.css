@@ -1,0 +1,229 @@
+body {
+  background-color: #ffffff;
+  font-family:'News Cycle', sans-serif;
+  margin: 0;
+  padding: 30px;
+}
+
+main {
+  width: 100%
+}
+
+.menu {
+
+  display: block;
+  height: 100px;
+  margin: auto;
+  text-align: center;
+  width: 600px;
+  z-index: 3;
+}
+
+.heading {
+  margin: 15% auto;
+
+}
+
+h1 {
+  color: #000;
+  animation-duration: 100s;
+  animation-iteration-count: infinite;
+  animation-name: example2;
+  animation-timing-function: ease-in-out;
+  font-family:'News Cycle', sans-serif;
+  font-size: 6em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+a {
+  color: #000;
+  float: left;
+  font-size: 1em;
+  margin: auto;
+  padding: 7px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100px;
+}
+
+a:link {
+  color: #000;
+
+}
+
+a:hover {
+  border: 1px dotted #000;
+}
+
+a:visited {
+  color: #000;
+}
+
+@keyframes pulse {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.pulse:hover {
+  animation-name: pulse
+}
+
+#snowflakeContainer {
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+
+@keyframes example2 {
+  from {color: #000;}
+  0%   {color: #710000;}
+  25%  {color: #A63C06;}
+  50%  {color: #C36F09;}
+  100% {color: #EEBA0B;}
+}
+
+@keyframes example {
+  from {color: #ffffff;}
+  0%   {color: #710000;}
+  25%  {color: #A63C06;}
+  50%  {color: #C36F09;}
+  100% {color: #EEBA0B;}
+}
+
+.snowflake {
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-name: example;
+  animation-timing-function: ease-in-out;
+  color: #FFFFFF;
+  /*font-family: 'News Cycle', sans-serif;*/
+  font-size: 14px;
+  line-height: 24px;
+  padding-left: 15px;
+  position: fixed;
+  user-select: none;
+  z-index: 1000;
+}
+
+.snowflake:hover {
+  cursor: default;
+}
+
+
+
+/*The animation code*/
+/*@keyframes example {*/
+/*from {background-color: #ffffff;}
+to {background-color: #79A9C5;}
+0%   {background-color: #710000;}
+25%  {background-color: #A63C06;}
+50%  {background-color: #C36F09;}
+100% {background-color: #EEBA0B;}
+}*/
+
+/* The element to apply the animation to */
+/*.exampleA {
+animation-direction: alternate;
+animation-duration: 5s;
+animation-fill-mode: forwards;
+animation-iteration-count: infinite;
+animation-name: example;
+animation-timing-function: ease-in-out;
+background-color: #607d8b;
+color: #ffffff;
+height: 50px;
+line-height: 50px;
+text-align: center;
+width: 50%;
+}
+
+.exampleB {
+animation-delay: 1s;
+animation-direction: alternate;
+animation-duration: 5s;
+animation-fill-mode: forwards;
+animation-iteration-count: infinite;
+animation-name: example;
+animation-timing-function: ease-in-out;
+background-color: #607d8b;
+height: 50px;
+width: 50%;
+}
+
+.exampleC {
+animation-delay: 2s;
+animation-direction: alternate;
+animation-duration: 5s;
+animation-fill-mode: forwards;
+animation-iteration-count: infinite;
+animation-name: example;
+animation-timing-function: ease-in-out;
+background-color: #607d8b;
+height: 50px;
+width: 50%;
+}
+
+
+.exampleD {
+animation-delay: 3s;
+animation-direction: alternate;
+animation-duration: 5s;
+animation-fill-mode: forwards;
+animation-iteration-count: infinite;
+animation-name: example;
+animation-timing-function: ease-in-out;
+background-color: #607d8b;
+height: 50px;
+width: 50%;
+}
+
+.exampleE {
+animation-delay: 4s;
+animation-direction: alternate;
+animation-duration: 5s;
+animation-fill-mode: forwards;
+animation-iteration-count: infinite;
+animation-name: example;
+animation-timing-function: ease-in-out;
+background-color: #607d8b;
+height: 50px;
+width: 50%;
+}
+
+.exampleF {
+animation-delay: 5s;
+animation-direction: alternate;
+animation-duration: 5s;
+animation-fill-mode: forwards;
+animation-iteration-count: infinite;
+animation-name: example;
+animation-timing-function: ease-in-out;
+background-color: #607d8b;
+height: 50px;
+width: 50%;
+}
+
+.exampleG {
+animation-delay: 6s;
+animation-direction: alternate;
+animation-duration: 5s;
+animation-fill-mode: forwards;
+animation-iteration-count: infinite;
+animation-name: example;
+animation-timing-function: ease-in-out;
+background-color: #607d8b;
+height: 50px;
+width: 50%;
+}*/
